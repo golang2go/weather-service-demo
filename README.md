@@ -32,6 +32,19 @@ Weather Service is a coding exercise that leverages the Open Weather API to prov
    docker run -d -p 8080:8080 --name my-weather-service weather-service
    ```
 
+### Obtaining an Open Weather Map API Key
+
+To use the Weather Service, you need an API key from Open Weather Map. This key allows you to retrieve weather data for your requests. Here’s how you can get your free API key:
+
+1. Visit the Open Weather Map website and create an account. Registration is free, and no credit card information is required.
+2. Once you’ve registered, log in to your account.
+3. Navigate to the API keys section of your account dashboard.
+4. Click on the “Create Key” button or find an existing key you can use.
+5. Name your key (the name is just for your reference) and click “Generate.”
+6. Your new API key will appear. Copy this key; you’ll need it to use the Weather Service API.
+
+Remember, the Open Weather Map API key is personal and should not be shared publicly. Use it securely by including it in the request headers as shown in the API usage section of this documentation.
+
 ### API Usage
 
 #### Endpoint
