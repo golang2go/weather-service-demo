@@ -50,7 +50,7 @@ Weather Service is a coding exercise that leverages the Open Weather API to prov
 #### Example Request
 
 ```bash
-curl -X GET "http://localhost:8080/api/v1/weather?lat=36.9198&lon=93.9276" -H "X-API-Key: YOUR_API_KEY"
+curl -X GET "http://localhost:8080/api/v1/weather?lat=36.9198&lon=93.9276" -H "X-API-Key: YOUR_OPEN_WEATHER_MAP_API_KEY"
 ```
 
 #### Response
