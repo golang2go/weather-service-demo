@@ -70,7 +70,7 @@ The application uses the following reasonable defaults:
 - **Open Weather Map API URL**: `https://api.openweathermap.org/data/2.5/weather`
 - **Unit of Measurement**: `imperial`
 
-The default unit of measurement is imperial. The default latitude and longitude are set to Monett, MO (`36.9198° N, 93.9276° W`).
+The default unit of measurement is imperial. The default latitude and longitude (in example request cURL) are set to Monett, MO (`36.9198° N, 93.9276° W`).
 
 ### Considerations on Concurrency
 While leveraging Go's concurrency features like goroutines and channels could enhance the efficiency of fetching data from the Open Weather Map API, this exercise prioritizes simplicity. Implementing such patterns would undoubtedly make the service more scalable and responsive but also introduce complexity that's beyond the scope of this proof of concept. This decision reflects a balance between functionality and maintainability, acknowledging the potential for future scalability while maintaining the current focus on core features.
